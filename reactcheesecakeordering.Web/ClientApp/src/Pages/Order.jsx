@@ -38,7 +38,7 @@ const Order = () => {
         if (baseFlavor === baseFlavors[0])
             return 0;
 
-        return (49.99+(selectedToppings.length*3.95)*quantity)
+        return (49.99 + (selectedToppings.length * 3.95)) * quantity
 
     }
 

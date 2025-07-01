@@ -41,7 +41,7 @@ const ViewOrders = () => {
                                 </a>
                             </td>
                             <td>{o.baseFlavor}</td>
-                            <td>{o.selectedToppings || 'None'}</td>
+                            <td>{o.toppings || 'None'}</td>
                             <td>{o.specialRequests || 'None'}</td>
                             <td>{o.quantity}</td>
                             <td>{dayjs(o.deliveryDate).format('MM/DD/YYYY')}</td>
